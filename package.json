@@ -1,0 +1,39 @@
+{
+  "name": "backend-task",
+  "version": "1.0.0",
+  "description": "Google Calender API With Node.js (Authorized with Auth0 2 Mechanism)",
+  "main": "Google-Calender-API-With-Node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [
+    "Google",
+    "Calender",
+    "API",
+    "With",
+    "Node.js"
+  ],
+  "author": "Saurabh Shete",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "googleapis": "^109.0.1",
+    "passport": "^0.6.0",
+    "passport-google-oauth2": "^0.2.0",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saurabhshete100X/Google-Calender-API-With-Node.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/saurabhshete100X/Google-Calender-API-With-Node.js/issues"
+  },
+  "homepage": "https://github.com/saurabhshete100X/Google-Calender-API-With-Node.js#readme"
+}
